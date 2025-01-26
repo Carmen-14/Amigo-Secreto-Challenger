@@ -17,18 +17,6 @@ Esta es una aplicación web sencilla que permite a los usuarios ingresar nombres
 - CSS
 - JavaScript
 
-## Instrucciones de uso
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/amigo-secreto.git
-   ```
-2. Navega al directorio del proyecto:
-   ```bash
-   cd amigo-secreto
-   ```
-3. Abre el archivo `index.html` en tu navegador web.
-
 ## Funcionamiento
 
 1. Ingresa un nombre en el campo de texto.
