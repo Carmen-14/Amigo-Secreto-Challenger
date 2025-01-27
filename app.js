@@ -1,5 +1,5 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-//document.addEventListener("DOMContentLoaded", () => {
+
     {
     const nameInput = document.getElementById("amigo");
     const addButton = document.querySelector(".button-add");
@@ -30,6 +30,10 @@
         const randomIndex = Math.floor(Math.random() * friends.length);
         resultDisplay.innerHTML = `<li>El amigo secreto es: ${friends[randomIndex]}</li>`;
         console.log(friends[randomIndex]);
+         
+        // Limpiar la lista de amigos
+        friends = [];
+        updateNameList();
     };
 
     function updateNameList() {
